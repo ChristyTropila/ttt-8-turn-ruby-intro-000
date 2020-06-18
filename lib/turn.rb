@@ -49,15 +49,18 @@ end
 
 
 
-
 def update_array_at_with(array, index, value)
   array[index] = value
 end
+
+
 
 def input_to_index(input)
   input.to_i - 1
 
 end
+
+
 
 def move(board, input, character="X")
 board[input]=character
